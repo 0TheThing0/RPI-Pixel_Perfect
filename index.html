@@ -4,7 +4,7 @@
     <!--Including css styles-->
     <meta charset = "UTF-8">
 
-    <!--Including css styles-->
+    <!-- Including css styles -->
     <link rel = "stylesheet" href = "/styles/header.css">
     <link rel = "stylesheet" href = "/styles/section1.css">
     <link rel = "stylesheet" href = "/styles/section2.css">
@@ -19,8 +19,23 @@
     <script src = "https://kit.fontawesome.com/4af46fd2dc.js" crossorigin = "anonymous"></script>
 </head>
 <body class = "page">
+
+      
     <!-- Landing header (logo, login buttons) -->
-    <header class = "page-header"></header>
+    <header>
+        <div class = "page-header">
+            <div class = "page-header-preview">
+                <img class = "page-header-logo" src = "./src/header-logo.png">
+                <div class = "page-header-buttons">
+                    <p>Features</p>
+                    <p>Pricing</p>
+                    <p>Blog</p>
+                    <p>Contact</p>
+                    <button class = "page-header-buttons-login page-header-buttons-login-font" type = "button" onclick = "location.href='#login'">Login</button>
+                </div>
+            </div>
+        </div>
+    </header>
 
     <!-- Home section (start button, dashboard, image) -->
     <section class = "page-section1"></section>
