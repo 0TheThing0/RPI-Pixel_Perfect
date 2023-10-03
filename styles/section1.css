@@ -1,0 +1,35 @@
+.page-section1-wrapper .top-div {
+  width: 2000px;
+  height: 900px;
+
+  background-color: #0e1a35;
+}
+
+.page-section1-wrapper .bottom-div {
+  width: 2000px;
+  height: 128px;
+
+  background-color: #ffffff;
+}
+
+.page-section1-img {
+  position: absolute;
+  width: 1023px;
+  height: 692px;
+
+  top: 536px;
+  left: 488px;
+}
+
+.page-section1-wrapper .top-div h1 {
+  margin: 0 0 0 0;
+  padding-top: 75px;
+
+  width: 2000px;
+  height: 56px;
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: 250;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
