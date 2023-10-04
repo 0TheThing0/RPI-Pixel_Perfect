@@ -1,66 +1,74 @@
-.page-section3{
-    background-color: #f6f7fa;
+.page-section3 {
+  background-color: #f6f7fa;
 
-    display: flex;
-    justify-content: right;
+  display: flex;
+  justify-content: right;
 
-    height: 849px;
-    width: 2000px;
+  height: 849px;
+  width: 2000px;
 }
-.section3-image{
-    align-self: right;
 
-    height: 667px;
-    width: 1047px;
+.section3-image {
+  align-self: right;
+
+  height: 667px;
+  width: 1047px;
 }
-.section3-textblock{
-    display: flex;
-    flex-direction: column;
 
-    margin-right: 33px;
-    margin-top: 48px;
+.section3-textblock {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 33px;
+  margin-top: 48px;
 }
-    .section3-textblock-header{
-        color: #0e1a35;
 
-        font-size: 60px;
-        font-weight: 250;
-        font-family: "Roboto";
-        line-height: 14px;
-    }
-    .section3-textblock-description{
-        color: #8492af;
-        font-size: 18px;
-        font-family: "Roboto";
-        line-height: 30px;
+.section3-textblock-header {
+  color: #0e1a35;
 
-        height: 53px;
-        width: 629px;
-    }
-    .section3-textblock-pointlist{
-        display: flex;
-        flex-direction: column;
-        margin-top: 30px;
-    }
-        .section3-textblock-pointlist-point{
-            align-items: center;
-            display: flex;
-            flex-direction: row;
-            margin-left: 1px;
+  font-size: 60px;
+  font-weight: 250;
+  font-family: "Roboto";
+  line-height: 14px;
+}
 
-            height: 60px;
-        }
-            .section3-textblock-pointlist-point-label{
-                color: #5284ff;
-                font-size: 28px; 
-            }
-            .section3-textblock-pointlist-point-text{
-                color: #5584ff;
-                
-                font-weight: 400;
-                font-family: "Roboto";
-                font-size: 22px;
-                line-height: 30px;
+.section3-textblock-description {
+  color: #8492af;
+  font-size: 18px;
+  font-family: "Roboto";
+  line-height: 30px;
 
-                padding-left: 18px;
-            }
+  height: 53px;
+  width: 629px;
+}
+
+.section3-textblock-pointlist {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.section3-textblock-pointlist-point {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-left: 1px;
+
+  height: 60px;
+}
+
+.section3-textblock-pointlist-point-label {
+  color: #5284ff;
+  font-size: 28px;
+}
+
+.section3-textblock-pointlist-point-text {
+  color: #5584ff;
+
+  font-weight: 400;
+  font-family: "Roboto";
+  font-size: 22px;
+  line-height: 30px;
+
+  padding-left: 18px;
+}
