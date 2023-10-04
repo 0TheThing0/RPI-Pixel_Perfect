@@ -1,0 +1,94 @@
+.page-section5{
+    background-color: #f6f7fa;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1100px;
+    width: 2000px;
+}
+.section5-textblock{
+    text-align: center;
+    width: 1020px;
+    height: 283px;
+}
+    .section5-textblock-header{
+        font-size: 60px;
+        font-weight: 10;
+        line-height: 14px;
+        color: #0e1a35;
+        font-family: "Roboto";
+    }
+    .section5-textblock-text{
+        margin-top: 67px;
+        height: 62px;
+        font-size: 18px;
+        line-height: 30px;
+        color: #8492af;
+        font-family: "Roboto";
+        text-align: center;
+    }
+
+.section5-template{
+    height: 681px;
+    width: 2000px;
+    background-image: url("/src/image-section5.png");
+    background-position: center;
+    background-repeat: no-repeat, no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+    .section5-template-label-left{
+        width: 660px;
+        height: 200px;
+        margin-top: 74px;
+        margin-right: 35px;
+    }
+    .section5-template-label-right{
+        width: 694px;
+        height: 312px;
+        text-align: right;
+        align-self: self-end;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        
+    }
+    .section5-template-label-header{
+        font-size: 24px;
+        letter-spacing: 0.5px;
+        line-height: 9px;
+        color: #0e1a35;
+        font-weight: bold;
+        font-family: "Roboto";
+    }
+    .section5-template-laber-text{
+        letter-spacing: 2px;
+        width: 243px; 
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 30px;
+        color: #8492af;
+        font-family: "Roboto";
+    }
+    .section5-template-label-ray{
+        height: 6px;
+        width: 650px;
+    }
+    .section5-template-label-ray-round{
+        position: relative;
+        z-index: 1;
+        width: 30px;
+        height: 30px;
+        border: 8px solid #95b2fd;
+        background-color: #5584ff;
+        border-radius: 50%;
+    }
+    .section5-template-label-ray-line{
+        border: 2px solid #5584ff;
+        position: relative;
+        z-index: 2;
+        
+    }
