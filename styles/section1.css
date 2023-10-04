@@ -40,15 +40,14 @@
 
 .page-section1-wrapper .top-div #first-header {
   margin: 0 0 0 0;
-  padding-top: 71px;
+  padding-top: 70px;
 
   width: 2000px;
   height: 56px;
-  font-size: 56px;
+  font-size: 60px;
   color: #ffffff;
-  font-weight: 250;
+  font-weight: 100;
   letter-spacing: 0;
-  font-stretch: semi-condensed;
   font-family: "Roboto", sans-serif;
   text-align: center;
 }
@@ -60,9 +59,9 @@
   width: 2000px;
   height: 40px;
   font-size: 36px;
-  color: #ffffff;
-  font-weight: 250;
-  letter-spacing: 0;
+  color: #8492af;
+  font-weight: 300;
+  letter-spacing: 0.1px;
   font-family: "Roboto", sans-serif;
   text-align: center;
 }
@@ -77,7 +76,7 @@
 }
 
 .page-section1-btn-get-started {
-  margin: 16px -1px 0 0;
+  margin: 16px 1px 0 0;
   z-index: 1;
 
   width: 204px;
@@ -86,7 +85,7 @@
   border: 0;
   background-color: #5584ff;
 
-  font-size: 15px;
+  font-size: 18px;
   letter-spacing: 0px;
   color: #ffffff; font-weight: 900;
   font-family: "Roboto", sans-serif;
