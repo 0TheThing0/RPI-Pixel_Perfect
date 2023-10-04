@@ -87,7 +87,11 @@
     font-family: "Roboto";
 }
 
-
+p.page-section2-button-text:hover{
+    background-color: rgb(91,138,255);
+    box-sizing: border-box;
+    color: #ffffff;
+}
 
 
 .page-section2-lines{
@@ -111,3 +115,5 @@
 .page-section2-lines-right{
     margin-left: -100px;
 }
+
+
