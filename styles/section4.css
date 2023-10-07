@@ -98,9 +98,69 @@
   border: 1px solid #8492af;
 }
 
+.draggable-avatar{
+  width:75px;
+  height: 98px;
+  text-align: center;
+}
+
+.draggable-avatar-text{
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Roboto";
+  margin-top: 30px;
+  margin-left: 30px;
+  line-height: 40px;
+}
+
+.draggable-avatar-border{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #5584ff;
+}
+
+.draggable-info{
+  width:285px;
+  height: 98px;
+}
+
+.draggable-info-name{
+  width:285px;
+  height: 20px;
+}
+
+.draggable-info-name-text{
+
+  font-family: "Roboto";
+  font-size: 18px;
+  margin-top: 27px;
+  margin-left: 20px;
+  letter-spacing: -0.15px;
+}
+
+.draggable-info-time{
+  font-family: "Roboto";
+}
+
+.draggable-info-time-icon-clock{
+  margin-top: 13px;
+  margin-left: 22px;
+  letter-spacing: 1px;
+}
+
+.draggable-info-time-text{
+  font-family: "Roboto";
+  font-size: 13px;
+  letter-spacing: -0.8px;
+}
+
+
 .draggable .icon {
   height: 98px;
-  width: 50px;
+  width: 36px;
+  padding-top: 41px;
+
 }
 
 
