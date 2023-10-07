@@ -1,0 +1,210 @@
+.page-section6{
+    background-color: #ffffff;
+}
+
+.page-section6-maindiv{
+    height: 939px; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page-section6-title{
+    text-align: center;
+    height:100px;
+    display:flex;
+    justify-content:flex-start;
+}
+
+.page-section6-title-text{
+    margin-top: 10px;
+    font-size: 60px;
+    line-height: 14px;
+    color: #0e1a35;
+    font-family: "Roboto";
+    font-weight: lighter; 
+}
+
+.page-section6-pricing{
+    text-align: center;
+    height: 546px;
+    width: 2000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 98px;
+}
+
+.page-section6-pricinng-between{
+    height: 422px;
+    width: 40px;
+}
+
+.page-section6-pricing-div{
+    position:relative;
+    height: 422px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.page-section6-pricing-div-shadow{
+    box-shadow: 0px 0px 50px #dddedf;
+}
+
+.page-section6-pricing-plan{
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    line-height: 36px;
+    color: #0e1a35;
+    font-family: "Roboto";
+}
+.page-section6-pricing-plan-div{
+    height: 80px;
+    margin-top: 17px;
+}
+
+.page-section6-pricing-price-div{
+    height: 100px;
+}
+
+.page-section6-pricing-price{
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.page-section6-pricing-price-dollar{
+    margin-top: 20px;
+    font-size: 40px;
+    letter-spacing: -4px;
+    line-height: 0px;
+    color: #0e1a35;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.page-section6-pricing-price-number{
+    font-size: 72px;
+    letter-spacing: 1px;
+    line-height: 36px;
+    color: #0e1a35;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.page-section6-pricing-price-mon{
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #8492af;
+    font-family: "Roboto";
+}
+
+.page-section6-pricing-features{
+    height: 242px;
+    margin-top: 26px;
+    margin-right: 7px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #8492af;
+    font-family: "Roboto";
+}
+
+.page-section6-pricing-features-xmark{
+    color: #f83c7b;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.page-section6-pricing-features-check{
+    color: #5284ff;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.page-section6-pricing-features-check-text{
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    line-height: 40px;
+    color: #8492af;
+    font-family: "Roboto";
+}
+
+.page-section6-pricing-features-xmark-text{
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    line-height: 42px;
+    color: #8492af;
+    font-family: "Roboto";
+}
+
+
+.page-section6-explanation{
+    text-align: center;
+    height: 100px;
+}
+
+.page-section6-explanation-text{
+    width: 903px;
+    height: 69px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #8492af;
+    font-family: "Roboto";
+    text-align: center;
+    letter-spacing: -0.1px;
+    padding-left: 20px;
+}
+
+.page-section6-button{
+    text-align: center;
+    width: 2000px;
+    height: 193px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.page-section6-button-div{
+    text-align: center;
+    margin-top: 23px;
+}
+
+.page-section6-button-lines{
+    opacity: 1.0;
+    width: 253px;
+    height: 0px;
+    background-color: #8492af;
+    margin-top: 63px;
+}
+
+.page-section6-button-text{
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    line-height: 48px;;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.page-section6-button-border{
+    width: 204px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #5584ff;
+}
+
+p.page-section6-button-text:hover{
+    border: #5584ff 1px solid;
+    background-color: #ffffff;
+    color: #5584ff;
+}
+
+
+div.page-section6-pricing-div:hover{
+    top:-20px;
+}
