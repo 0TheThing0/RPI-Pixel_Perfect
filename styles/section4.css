@@ -1,0 +1,108 @@
+.page-section4 {
+  width: 2000px;
+  height: 750px;
+  display: flex;
+  justify-content: right;
+
+  background-color: #0e1a35;
+  background-image: url(../src/section4-graph-grid.png)
+}
+
+.page-section4-drag-drop {
+  width: 1000px;
+  height: 750px;
+
+}
+
+.page-section4-description {
+  width: 1000px;
+  height: 750px;
+}
+
+.page-section4-description .description {
+  margin: 0 0 0 0;
+  padding: 100px 0 0 100px;
+
+  height: 400px;
+  width: 700px;
+}
+
+.page-section4-description .description .header {
+  margin: 50px 0 0 0;
+  padding: 62px 0 0 51px;
+
+  height: 100px;
+  width: 400px;
+
+  font-size: 60px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-weight: 250;
+  font-family: "Roboto", sans-serif;
+}
+
+.page-section4-description .description .paragraph {
+  margin: 0 0 0 51px;
+  padding: 10px 0 0 7px;
+
+  width: 518px;
+  height: 164px;
+  line-height: 27px;
+  font-size: 18px;
+  color: #8492af;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.page-section4-drag-drop-header {
+  margin: 20px 100px 0 100px;
+  padding: 100px 45px 0 45px;
+
+  width: 750px;
+  height: 75px;
+}
+
+.page-section4-drag-drop-containers {
+  margin: 0 0 0 100px;
+  padding: 15px 0 0 48px;
+
+  display: flex;
+  justify-content: row;
+
+  width: 876px;
+  height: 500px; 
+}
+
+.container-in-progress {
+  margin: 0 0 0 0;
+}
+
+.container-completed {
+  margin: 0 0 0 3px;
+}
+
+.container {
+  width: 438px;
+  height: 500px;
+}
+
+.draggable {
+  margin: 12px 0 0 0;
+
+  display: flex;
+  justify-content: row;
+
+  width: 388px;
+  height: 97px;
+  background-color: #ffffff;
+  border: 1px solid #8492af;
+}
+
+.draggable .icon {
+  height: 98px;
+  width: 50px;
+}
+
+
+
+
