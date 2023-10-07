@@ -32,7 +32,7 @@
 .section5-template{
     height: 681px;
     width: 2000px;
-    background-image: url("src/image-section5.png");
+    background-image: url("./src/image-section5.png");
     background-position: center;
     background-repeat: no-repeat, no-repeat;
     display: flex;
