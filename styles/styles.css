@@ -10,9 +10,14 @@
     width: 2000px;
 }
 
-.page-space{
+.page-space1{
     background-image: linear-gradient(0deg, #f5f7f9 0%, #ffffff 100%);
 
     height: 166px;
     width: 2000px;
+}
+.page-space2{
+    width: 2000px;
+    height: 166px;
+    background-image: linear-gradient(0deg, #ffffff 0%, #f5f7f9 100%);
 }

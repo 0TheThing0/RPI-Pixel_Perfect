@@ -3,7 +3,7 @@
 }
 
 .page-section6-maindiv{
-    height: 939px; 
+    height: 938px; 
     display:flex;
     align-items: center;
     justify-content: center;
@@ -56,6 +56,7 @@
 }
 
 .page-section6-pricing-plan{
+    margin-top: 23px;
     font-size: 24px;
     letter-spacing: 0.5px;
     line-height: 36px;
@@ -72,7 +73,7 @@
 }
 
 .page-section6-pricing-price{
-    margin-top: 35px;
+    margin-top: 37px;
     margin-left: 10px;
 }
 
@@ -106,10 +107,20 @@
 .page-section6-pricing-features{
     height: 242px;
     margin-top: 26px;
-    margin-right: 7px;
+    margin-right: 5px;
+    color: #8492af;
+    font-family: "Roboto";
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-section6-pricing-features-xmark-text{
     font-size: 18px;
-    letter-spacing: 0px;
-    line-height: 36px;
+    letter-spacing: 0.3px;
+    line-height: 42px;
+    padding-left: 10px;
+    padding-bottom: 2px;
     color: #8492af;
     font-family: "Roboto";
 }
@@ -129,19 +140,12 @@
 .page-section6-pricing-features-check-text{
     font-size: 18px;
     letter-spacing: 0.3px;
-    line-height: 40px;
-    color: #8492af;
-    font-family: "Roboto";
-}
-
-.page-section6-pricing-features-xmark-text{
-    font-size: 18px;
-    letter-spacing: 0.3px;
     line-height: 42px;
+    padding-left: 10px;
+    padding-bottom: 2px;
     color: #8492af;
     font-family: "Roboto";
 }
-
 
 .page-section6-explanation{
     text-align: center;
@@ -207,4 +211,10 @@ p.page-section6-button-text:hover{
 
 div.page-section6-pricing-div:hover{
     top:-20px;
+}
+.page-section6-pricing-features-point{
+    height: 41px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
 }

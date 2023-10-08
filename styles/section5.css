@@ -4,13 +4,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 1100px;
+    height: 936px;
     width: 2000px;
+    margin-top: 60px;
 }
 .section5-textblock{
     text-align: center;
     width: 1020px;
-    height: 283px;
+    height: 200px;
 }
     .section5-textblock-header{
         font-size: 60px;
@@ -30,10 +31,10 @@
     }
 
 .section5-template{
-    height: 681px;
+    height:881px;
     width: 2000px;
     background-image: url("../src/image-section5.png");
-    background-position: center;
+    background-position: center bottom -28px;
     background-repeat: no-repeat, no-repeat;
     display: flex;
     flex-direction: row;
@@ -41,13 +42,14 @@
 }
     .section5-template-label-left{
         width: 660px;
-        height: 200px;
-        margin-top: 74px;
-        margin-right: 35px;
+        height: 500px;
+        align-self: center;
+        margin-top: 76px;
+        margin-right: 38px;
     }
     .section5-template-label-right{
         width: 694px;
-        height: 312px;
+        height: 283px;
         text-align: right;
         align-self: self-end;
 
@@ -87,7 +89,7 @@
         border-radius: 50%;
     }
     .section5-template-label-ray-line{
-        border: 2px solid #5584ff;
+        border: 1px solid #5584ff;
         position: relative;
         z-index: 2;
         
