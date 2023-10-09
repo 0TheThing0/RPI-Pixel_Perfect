@@ -15,12 +15,17 @@
 
 .page-footer-name-company{
     width:815px;
+    text-align: center;
+}
+
+.page-footer-name-company-text{
     font-size: 18px;
     line-height: 30px;
+    letter-spacing: -0.1px;
     color: #8492af;
     font-family: "Roboto";
-    text-align: center;
-    margin-top: 1px;
+    margin-top: 18px;
+    margin-right: 2px;
 }
 
 .page-footer-navigation{
@@ -61,6 +66,10 @@
 .page-footer-navigation-text-contact{
     margin-left: 3px;
     padding-right: 30px;
+}
+
+.page-footer-navigation-link:hover{
+    color:#ffffff;
 }
 
 .page-footer-navigation-social-networks-facebook{
