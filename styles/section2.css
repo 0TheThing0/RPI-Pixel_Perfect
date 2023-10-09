@@ -15,7 +15,7 @@
 }
 
 .page-section2-pic{
-    padding-top: 109px;
+    padding-top: 108px;
 }
 
 .page-section2-childdiv{
@@ -25,6 +25,7 @@
     height:500px;
     display:flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -77,10 +78,10 @@
 }
 
 .page-section2-button-text{
-    margin-top: 30px;
-    margin-right: 3px;
+    margin-top: 31px;
+    /* margin-right: 3px; */
     font-size: 18px;
-    letter-spacing: 0px;
+    letter-spacing: 0.4px;
     line-height: 48px;
     color: #0e1a35;
     font-weight: bold;
@@ -113,7 +114,7 @@ p.page-section2-button-text:hover{
 } 
 
 .page-section2-lines-right{
-    margin-left: -100px;
+    margin-left: -114px;
 }
 
 

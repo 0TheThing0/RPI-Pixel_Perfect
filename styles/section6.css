@@ -3,7 +3,7 @@
 }
 
 .page-section6-maindiv{
-    height: 938px; 
+    height: 937px; 
     display:flex;
     align-items: center;
     justify-content: center;
@@ -29,16 +29,11 @@
 .page-section6-pricing{
     text-align: center;
     height: 546px;
-    width: 2000px;
+    width: 1460px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     margin-right: 98px;
-}
-
-.page-section6-pricinng-between{
-    height: 422px;
-    width: 40px;
 }
 
 .page-section6-pricing-div{
@@ -56,7 +51,7 @@
 }
 
 .page-section6-pricing-plan{
-    margin-top: 23px;
+    margin-top: 22px;
     font-size: 24px;
     letter-spacing: 0.5px;
     line-height: 36px;
@@ -70,15 +65,19 @@
 
 .page-section6-pricing-price-div{
     height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 6px;
 }
 
 .page-section6-pricing-price{
-    margin-top: 37px;
-    margin-left: 10px;
+    margin-top: 34px;
+    margin-left: 3px;
 }
 
 .page-section6-pricing-price-dollar{
-    margin-top: 20px;
+    margin-top: 60px;
     font-size: 40px;
     letter-spacing: -4px;
     line-height: 0px;
@@ -106,8 +105,8 @@
 
 .page-section6-pricing-features{
     height: 242px;
-    margin-top: 26px;
-    margin-right: 5px;
+    margin-top: 25px;
+    margin-right: 6px;
     color: #8492af;
     font-family: "Roboto";
     align-items: center;
@@ -193,6 +192,8 @@
     color: #ffffff;
     font-weight: bold;
     font-family: "Roboto";
+    margin-top: 18px;
+    margin-left: 2px
 }
 
 .page-section6-button-border{
