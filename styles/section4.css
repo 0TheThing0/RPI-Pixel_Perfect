@@ -5,7 +5,8 @@
   justify-content: right;
 
   background-color: #0e1a35;
-  background-image: url(../src/section4-graph-grid.png)
+  background-position-y: -5px;
+  background-image: url(../src/section4-graph-grid.png);
 }
 
 .page-section4-drag-drop {
@@ -41,13 +42,13 @@
   font-family: "Roboto", sans-serif;
 }
 
-.page-section4-description .description .paragraph {
+.page-section4-description .description .desc-p p{
   margin: 0 0 0 51px;
   padding: 10px 0 0 7px;
 
   width: 518px;
-  height: 164px;
-  line-height: 27px;
+  height: 79px;
+  line-height: 28px;
   font-size: 18px;
   color: #8492af;
   font-weight: 400;
@@ -60,6 +61,47 @@
 
   width: 750px;
   height: 75px;
+
+  display: flex;
+  justify-content: right;
+}
+
+.drag-drop-header-name-left {
+  width: 442px;
+  height: 75px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.drag-drop-header-name-right {
+  width: 308px;
+  height: 75px;
+}
+
+.page-section4-drag-drop-header p{
+  margin: 37px 0 0 -2px;
+  
+  color: #ffffff;
+  font-family: Roboto Medium;
+  font-size: 31px;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.page-section4-drag-drop-header p span{ 
+  color: #8492af;
+}
+
+.drag-drop-header-name-left i{
+  margin: 51px 28px 0 0;
+
+  width: 30px;
+  height: 30px;
+
+  scale: 1.6;
+  display: flex;
+  justify-content: space-between;
 }
 
 .page-section4-drag-drop-containers {
@@ -84,6 +126,10 @@
 .container {
   width: 438px;
   height: 500px;
+
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;      
 }
 
 .draggable {
@@ -95,6 +141,16 @@
   width: 388px;
   height: 97px;
   background-color: #ffffff;
+  border: 1px solid #8492af;
+}
+
+.dropHere {
+  margin: 12px 0 0 0;
+
+  width: 388px;
+  height: 97px;
+
+  opacity: 0;
   border: 1px solid #8492af;
 }
 
@@ -131,7 +187,6 @@
 }
 
 .draggable-info-name-text{
-
   font-family: "Roboto";
   font-size: 18px;
   margin-top: 27px;
@@ -151,18 +206,16 @@
 
 .draggable-info-time-text{
   font-family: "Roboto";
-  font-size: 13px;
-  letter-spacing: -0.8px;
+  font-size: 12px;
+  letter-spacing: 0.2px;
 }
 
 
 .draggable .icon {
+  color: #8492af;
   height: 98px;
   width: 36px;
   padding-top: 41px;
-
 }
-
-
 
 
