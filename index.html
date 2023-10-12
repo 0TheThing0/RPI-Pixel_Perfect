@@ -15,6 +15,9 @@
     <link rel = "stylesheet" href = "styles/footer.css">
     <link rel = "stylesheet" href = "styles/styles.css">
 
+    <!-- Drag-drop -->
+    <script src="./scripts/drag-drop.js" defer></script>
+
     <!--Font Awesome Kit-->
     <script src = "https://kit.fontawesome.com/4af46fd2dc.js" crossorigin = "anonymous"></script>
 </head>
@@ -144,10 +147,17 @@
     <section class = "page-section4">
       <div class = "page-section4-drag-drop">
         <div class = "page-section4-drag-drop-header">
+          <div class="drag-drop-header-name-left">
+              <p>In Progress <span>(3)</span></p>
+              <i class="fa-solid fa-chevron-right" style="color: #8492af;"></i>
+          </div>
+          <div class="drag-drop-header-name-right">
+              <p>Completed <span>(2)</span></p>
+          </div>
         </div>
         <div class="page-section4-drag-drop-containers">
             <div class="container container-in-progress">
-              <div class="draggable">
+              <div class="draggable" draggable = "true">
                 <div class="draggable-avatar">
                     <p class="draggable-avatar-text draggable-avatar-border">N</p>
                 </div>
@@ -157,8 +167,8 @@
                         <p class="draggable-info-name-text">New logo for Apple</p>
                     </div>
                     <div class="draggable-info-time">
-                        <i class="fa-regular fa-clock fa-sm draggable-info-time-icon-clock">
-                            <span class="draggable-info-time-text">1 day left</span></i>
+                        <i class="fa-regular fa-clock fa-sm draggable-info-time-icon-clock" style = "color: #8492af;">
+                            <span class="draggable-info-time-text" style = "color: #8492af;">1 day left</span></i>
                         
                     </div>
                 </div>
@@ -167,7 +177,7 @@
                   <i class="fa-solid fa-ellipsis-vertical fa-2xl"></i>
                 </div>
               </div>
-              <div class="draggable">
+              <div class="draggable" draggable = "true">
                 <div class="draggable-avatar">
                     <p class="draggable-avatar-text draggable-avatar-border">D</p>
                 </div>
@@ -177,8 +187,8 @@
                         <p class="draggable-info-name-text">Daily UI Kit</p>
                     </div>
                     <div class="draggable-info-time">
-                        <i class="fa-regular fa-clock fa-sm draggable-info-time-icon-clock">
-                            <span class="draggable-info-time-text">5 day left</span></i>
+                        <i class="fa-regular fa-clock fa-sm draggable-info-time-icon-clock" style = "color: #8492af;">
+                            <span class="draggable-info-time-text" style = "color: #8492af;">5 days left</span></i>
                         
                     </div>
                 </div>
@@ -187,7 +197,7 @@
                   <i class="fa-solid fa-ellipsis-vertical fa-2xl"></i>
                 </div>
               </div>
-              <div class="draggable">
+              <div class="draggable" draggable = "true">
                 <div class="draggable-avatar">
                     <p class="draggable-avatar-text draggable-avatar-border">B</p>
                 </div>
@@ -209,7 +219,7 @@
               </div>
             </div>
             <div class="container container-completed">
-              <div class="draggable">
+              <div class="draggable" draggable = "true">
                 <div class="draggable-avatar">
                     <p class="draggable-avatar-text draggable-avatar-border">F</p>
                 </div>
@@ -229,7 +239,7 @@
                   <i class="fa-solid fa-ellipsis-vertical fa-2xl"></i>
                 </div>
               </div>
-              <div class="draggable">
+              <div class="draggable" draggable = "true">
                 <div class="draggable-avatar">
                     <p class="draggable-avatar-text draggable-avatar-border">I</p>
                 </div>
@@ -255,7 +265,14 @@
       <div class = "page-section4-description">
           <div class="description">
             <h1 class = "header">Drag & Drop</h1>
-            <p class="paragraph">Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. </p>
+              <div class="desc-p">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+                <p>
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                </p>
+              </div>
           </div>
       </div>
     </section>
