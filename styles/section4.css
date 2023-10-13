@@ -29,7 +29,7 @@
 
 .page-section4-description .description .header {
   margin: 50px 0 0 0;
-  padding: 62px 0 0 51px;
+  padding: 60px 0 0 51px;
 
   height: 100px;
   width: 400px;
@@ -43,12 +43,13 @@
 
 .page-section4-description .description .desc-p p {
   margin: 0 0 0 51px;
-  padding: 10px 0 0 7px;
+  padding: 10.1px 0 0 7px;
 
   width: 518px;
   height: 79px;
-  line-height: 28px;
+  line-height: 30px;
   font-size: 18px;
+  letter-spacing: -0.1px;
   color: #8492af;
   font-weight: 400;
   font-family: "Roboto";
