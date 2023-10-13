@@ -12,7 +12,6 @@
 .page-section4-drag-drop {
   width: 1000px;
   height: 750px;
-
 }
 
 .page-section4-description {
@@ -42,7 +41,7 @@
   font-family: "Roboto", sans-serif;
 }
 
-.page-section4-description .description .desc-p p{
+.page-section4-description .description .desc-p p {
   margin: 0 0 0 51px;
   padding: 10px 0 0 7px;
 
@@ -79,9 +78,9 @@
   height: 75px;
 }
 
-.page-section4-drag-drop-header p{
+.page-section4-drag-drop-header p {
   margin: 37px 0 0 -2px;
-  
+
   color: #ffffff;
   font-family: Roboto Medium;
   font-size: 31px;
@@ -89,11 +88,11 @@
   letter-spacing: 0;
 }
 
-.page-section4-drag-drop-header p span{ 
+.page-section4-drag-drop-header p span {
   color: #8492af;
 }
 
-.drag-drop-header-name-left i{
+.drag-drop-header-name-left i {
   margin: 51px 28px 0 0;
 
   width: 30px;
@@ -112,7 +111,7 @@
   justify-content: row;
 
   width: 876px;
-  height: 500px; 
+  height: 500px;
 }
 
 .container-in-progress {
@@ -129,7 +128,7 @@
 
   -moz-user-select: none;
   -khtml-user-select: none;
-  user-select: none;      
+  user-select: none;
 }
 
 .draggable {
@@ -154,13 +153,13 @@
   border: 1px solid #8492af;
 }
 
-.draggable-avatar{
-  width:75px;
+.draggable-avatar {
+  width: 75px;
   height: 98px;
   text-align: center;
 }
 
-.draggable-avatar-text{
+.draggable-avatar-text {
   font-size: 20px;
   color: #ffffff;
   font-family: "Roboto";
@@ -169,24 +168,24 @@
   line-height: 40px;
 }
 
-.draggable-avatar-border{
+.draggable-avatar-border {
   border-radius: 50%;
   width: 40px;
   height: 40px;
   background-color: #5584ff;
 }
 
-.draggable-info{
-  width:285px;
+.draggable-info {
+  width: 285px;
   height: 98px;
 }
 
-.draggable-info-name{
-  width:285px;
+.draggable-info-name {
+  width: 285px;
   height: 20px;
 }
 
-.draggable-info-name-text{
+.draggable-info-name-text {
   font-family: "Roboto";
   font-size: 18px;
   margin-top: 27px;
@@ -194,22 +193,21 @@
   letter-spacing: -0.15px;
 }
 
-.draggable-info-time{
+.draggable-info-time {
   font-family: "Roboto";
 }
 
-.draggable-info-time-icon-clock{
+.draggable-info-time-icon-clock {
   margin-top: 13px;
   margin-left: 22px;
   letter-spacing: 1px;
 }
 
-.draggable-info-time-text{
+.draggable-info-time-text {
   font-family: "Roboto";
   font-size: 12px;
   letter-spacing: 0.2px;
 }
-
 
 .draggable .icon {
   color: #8492af;
@@ -218,4 +216,10 @@
   padding-top: 41px;
 }
 
+.page-section4-description-icons {
+  margin: 28px 0 0 51px;
+  padding: 0 0 0 8px;
 
+  width: 100px;
+  height: 38px;
+}
