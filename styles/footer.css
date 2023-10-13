@@ -45,7 +45,7 @@
 }
 
 .page-footer-navigation-social-networks{
-    font-size: 18px;
+    font-size: 17px;
     letter-spacing: 0px;
     line-height: 92px;
     color: #8492af;
@@ -74,12 +74,15 @@
 
 .page-footer-navigation-social-networks-facebook{
     padding-right: 0px;
+    margin: 0px 0px 0px 9px;
 }
 
 .page-footer-navigation-social-networks-twitter{
     padding-right: 0px;
+    margin: 0px 0px 0px 11px;  
 }
 
 .page-footer-navigation-social-networks-google-plus{
     padding-right: 0px;
+    margin: 0px 0px 0px 8px;
 }
